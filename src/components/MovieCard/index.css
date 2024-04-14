@@ -1,0 +1,72 @@
+.view-details {
+  position: relative;
+  bottom: 0px;
+  background-color: #8b1c15;
+  border: none;
+  height: 30px;
+  color: #fff;
+  border-radius: 10px;
+  width: 150px;
+}
+@media screen and (max-width: 425px) {
+  .view-details {
+    align-self: center;
+  }
+}
+.view-details:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.movie-card-container {
+  margin: 8px;
+}
+
+.movie-card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.movie-title {
+  font-size: 15px;
+  color: red;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 768px) {
+  .movie-title {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 2px;
+  }
+  .movie-card-image {
+    width: 390px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+}
+.movie-rating {
+  margin: 5px;
+}

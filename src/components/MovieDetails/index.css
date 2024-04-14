@@ -1,0 +1,55 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.movie-details-co {
+  background-color: blueviolet;
+}
+.movie-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.movie-img {
+  height: 270px;
+  width: 270px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.side-part {
+  margin: 5px;
+}
+.para {
+  color: white;
+  font-size: 15px;
+}
+.cast-details {
+  background-color: aquamarine;
+}
+.cast-lists {
+  margin-top: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(auto-fit, min-max(200px, 1fr));
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cast {
+  border: 1px white;
+  margin: 4px;
+  border-radius: 5px;
+}
+.cast-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.cast-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.para1 {
+  color: #ffffff;
+  font-size: 20px;
+}
